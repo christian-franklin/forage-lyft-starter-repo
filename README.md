@@ -27,3 +27,7 @@ answer.
 ![My UML diagram](UMLdiagram_ChristianFranklin.pdf)
 
 ![Courses UML diagram](Course_ClassDiagram.pdf)
+
+To see the original starter code, check the original source of my forked repo.
+
+![Original Starter Code](https://github.com/vagabond-systems/forage-lyft-starter-repo)
