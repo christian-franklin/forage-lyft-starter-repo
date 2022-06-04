@@ -1,4 +1,4 @@
-from Serviceable import Serviceable
+from serviceable import Serviceable
 from engines.engine import Engine
 from batteries.battery import Battery
 from tires.tire import Tire
