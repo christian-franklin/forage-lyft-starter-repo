@@ -15,7 +15,7 @@ class to check if a car needs to be serviced.
 Using the provided class diagram I created Serviceable which is the parent class for Car which by composition has 
 Engine, Battery and Tire classes. These classes have subclasses for each Engine, Battery, and Tire type. Using abc 
 library the @abstractmethod wrapper is used to search down the class tree to check the appropriate components 
-needs_service method to check if one of the service conditions has been met. 
+needs_service method to see if any of the service conditions have been met. 
 
 CarFactory is then used in combination with the other classes to pick and choose which components make up a Car. 
 
