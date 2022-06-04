@@ -2,6 +2,10 @@ import unittest
 from datetime import datetime
 from car_factory import CarFactory
 
+"""
+Original tests, modified to use new architecture plan.
+Left for documentation purposes, would normally delete. 
+"""
 
 class TestCalliope(unittest.TestCase):
     def test_battery_should_be_serviced(self):
