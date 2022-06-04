@@ -8,9 +8,9 @@ parameters.
 - Step 3 - Enhance unit tests
 - Step 4 - Add new features and expand unit tests
 
-My original class diagram was not quite what the program had in mind but at a high level it was close. Difference being
-that Lyft engineers had a CarFactory which creates cars that have different components, and then uses a Serviceable
-class to check if a car needs to be serviced. 
+My original class diagram was not quite what the program had in mind but at a high level it had similarities. 
+One big difference being that Lyft engineers had a CarFactory which creates cars that have different components, 
+and then uses a Serviceable class to check if a car needs to be serviced. 
 
 Using the provided class diagram I created Serviceable which is the parent class for Car which by composition has 
 Engine, Battery and Tire classes. These classes have subclasses for each Engine, Battery, and Tire type. Using abc 
