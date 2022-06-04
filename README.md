@@ -12,9 +12,9 @@ My original class diagram was not quite what the program had in mind but at a hi
 One big difference being that the correct plan had a CarFactory which creates cars that have different components, 
 and then uses a Serviceable class to check if a car needs to be serviced. 
 
-Using the provided class diagram I created Serviceable which is the parent class for Car which by composition has 
-Engine, Battery and Tire classes. These classes have subclasses for each Engine, Battery, and Tire type. Using abc 
-library the @abstractmethod wrapper is used to search down the class tree to check the appropriate components 
+Using the provided class diagram I created Serviceable which is the parent class for Car. Within Car by composition 
+there is Engine, Battery and Tire classes. These classes have subclasses for each Engine, Battery, and Tire type. 
+Using abc library the @abstractmethod wrapper is used to search down the class tree to check the appropriate components 
 needs_service method to see if any of the service conditions have been met. 
 
 CarFactory is then used in combination with the other classes to pick and choose which components make up a Car. 
