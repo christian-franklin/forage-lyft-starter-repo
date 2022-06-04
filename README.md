@@ -17,6 +17,9 @@ there is Engine, Battery and Tire classes. These classes have subclasses for eac
 Using abc library the @abstractmethod wrapper is used to search down the class tree to check the appropriate components 
 needs_service method to see if any of the service conditions have been met. 
 
+i.e. we start at Serviceable and if the needs_service returns True for any component within the child class Car or
+its related component classes then we know a Car needs to be serviced. 
+
 CarFactory is then used in combination with the other classes to pick and choose which components make up a Car. 
 
 Unittests were created to test different combinations of Engine, Battery and Tire that make up various Car objects.
