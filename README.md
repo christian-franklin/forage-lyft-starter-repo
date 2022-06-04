@@ -22,4 +22,4 @@ answer.
 
 ![My UML diagram](UMLdiagram_ChristianFranklin.pdf)
 
-![Courses UML diagram](Class%20Diagram%20with%20Explanations.pdf)
+![Courses UML diagram](Course_ClassDiagram.pdf)
