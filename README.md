@@ -12,10 +12,14 @@ My original class diagram was not quite what the program had in mind but at a hi
 that Lyft engineers had a CarFactory which creates cars that have different components, and then uses a Serviceable
 class to check if a car needs to be serviced. 
 
-Using a provided class diagram (not the one I had in the repo) created Serviceable which is the parent class for Car 
-which by composition has Engine, Battery and tire classes. These classes have subclasses for each Engine, Battery, and  
-Tire type. Using abc library the @abstractmethod class is used to search down the class tree to check the appropriate 
-components needs_service method to check if one of the service conditions has been met. 
+Using the provided class diagram I created Serviceable which is the parent class for Car which by composition has 
+Engine, Battery and Tire classes. These classes have subclasses for each Engine, Battery, and Tire type. Using abc 
+library the @abstractmethod class is used to search down the class tree to check the appropriate components 
+needs_service method to check if one of the service conditions has been met. 
+
+CarFactory is then used in combination with the other classes to pick and choose which components make up a Car. 
+
+Unittests were created to test different combinations of Engine, Battery and Tire that make up various Car objects.
 
 I included my original class diagram below to show my first attempt at planning out the project vs the classes correct
 answer. 
